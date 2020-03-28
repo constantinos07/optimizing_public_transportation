@@ -115,6 +115,8 @@ In addition to the course content you have already reviewed, you may find the fo
 
 There are two pieces to the simulation, the `producer` and `consumer`. As you develop each piece of the code, it is recommended that you only run one piece of the project at a time.
 
+![Services](images/workspace_environment.png)
+
 **To run the `producer`:**
 
 If using Project Workspace:
@@ -132,7 +134,7 @@ If using your computer:
 
 Once the simulation is running, you may hit `Ctrl+C` at any time to exit.
 
-**To run the Faust Stream Processing Application:**
+**To run the `Faust Stream` Processing Application:**
 
 If using Project Workspace:
 1. `cd consumers`
@@ -157,7 +159,7 @@ If using your computer:
 4. `pip install -r requirements.txt`
 5. `python ksql.py`
 
-**To run the consumer: (NOTE: Do not run the consumer until you have reached Step 6!)**
+**To run the `consumer`: (NOTE: Do not run the consumer until you have reached Step 6!)**
 
 If using Project Workspace:
 1. `cd consumers`
@@ -172,15 +174,10 @@ If using your computer:
 
 Once the server is running, you may hit `Ctrl+C` at any time to exit.
 
-
-
-
-
 ## Prerequisites
 
 To complete your project locally, the following are required:
 
-Docker
-Python 3.7
-A minimum of 16gb+ RAM and a 4-core CPU on your computer to execute the simulation
-
+1. Docker
+2. Python 3.7
+3. A minimum of 16gb+ RAM and a 4-core CPU on your computer to execute the simulation
